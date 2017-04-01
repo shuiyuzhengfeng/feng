@@ -1,0 +1,79 @@
+@import url("reset.css");
+body,
+html {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -87px;
+}
+.nav {
+  padding: 1.0rem 1.5rem;
+}
+.nav a {
+  color: #fff;
+}
+.biao {
+  margin-top: 89px;
+}
+.biao h1 {
+  margin: 15px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 60px;
+  color: #333;
+  font-weight: 700;
+}
+.biao h5 {
+  margin: 5px 0 10px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+}
+.pricing-item {
+  box-shadow: 0px 2px 5px 0px #aaa;
+  color: #333;
+  border-radius: 5px;
+}
+.pricing-item .name {
+  border-radius: 5px 5px 0px 0px;
+  background-color: #32A7B8;
+  padding: 1rem 0px;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+.pricing-item .name h6 {
+  color: white;
+  line-height: 1.1;
+  padding: 7px 0;
+}
+.price .prefix {
+  font-size: 2rem;
+}
+.price .value {
+  font-size: 3rem;
+}
+.price .text {
+  font-size: 1rem;
+}
+.line {
+  width: 200px;
+  border-bottom: 2px solid #32A7B8;
+  margin: 2.5rem auto;
+}
+.footer {
+  padding: 60px 0 20px;
+  background: #191e2b;
+  color: #999;
+}
+.footer h5 {
+  font-size: 2rem;
+}
+p {
+  padding: 12px 0;
+  color: #32A7B8;
+}
